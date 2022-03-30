@@ -2,6 +2,9 @@
     background-color: black;
     color: white
 }
+*:focus{
+    outline: none
+}
 h1{
     font-size:40px;
 }
