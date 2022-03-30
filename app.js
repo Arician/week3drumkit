@@ -63,3 +63,31 @@ document.addEventListener("keyup",()=>{
     colorchange("white")
     h1.style.fontSize="40px"
 })
+
+clapBtn.addEventListener("click",()=>{
+    clap.src="sounds/clap.wav"
+})
+boomBtn.addEventListener("click",()=>{
+    boom.src="sounds/boom.wav"
+})
+hihatBtn.addEventListener("click",()=>{
+    hihat.src="sounds/hihat.wav"
+})
+kickBtn.addEventListener("click",()=>{
+    kick.src="sounds/kick.wav"
+})
+openhatBtn.addEventListener("click",()=>{
+    openhat.src="sounds/openhat.wav"
+})
+rideBtn.addEventListener("click",()=>{
+    ride.src="sounds/ride.wav"
+})
+snareBtn.addEventListener("click",()=>{
+    snare.src="sounds/snare.wav"
+})
+tinkBtn.addEventListener("click",()=>{
+    tink.src="sounds/tink.wav"
+})
+tomBtn.addEventListener("click",()=>{
+    tom.src="sounds/tom.wav"
+})
