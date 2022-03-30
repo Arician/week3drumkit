@@ -21,7 +21,7 @@ const rideBtn= document.getElementById("rideBtn");
 const snareBtn= document.getElementById("snareBtn");
 const tinkBtn= document.getElementById("tinkBtn");
 const tomBtn= document.getElementById("tomBtn");
-
+// 
 let colorchange=(n)=>{
     for(let i=0; i<all.length;i++){
         all[i].style.color=n
@@ -30,31 +30,31 @@ let colorchange=(n)=>{
 
 document.addEventListener("keydown",(e)=>{
     if (e.key=="7"){
-        boom.src="sounds/clap.wav"
+        clap.src="sounds/clap.wav"
         colorchange("red")
     }else if (e.key=="8"){
-        boom.src="sounds/hihat.wav"
+        hihat.src="sounds/hihat.wav"
         colorchange("orange")
     }else if (e.key=="9"){
         boom.src="sounds/boom.wav"
         colorchange("yellow")
     }else if (e.key=="4"){
-        boom.src="sounds/kick.wav"
+        kick.src="sounds/kick.wav"
         colorchange("green")
     }else if (e.key=="5"){
-        boom.src="sounds/openhat.wav"
+        openhat.src="sounds/openhat.wav"
         colorchange("cyan")
     }else if (e.key=="6"){
-        boom.src="sounds/ride.wav"
+        ride.src="sounds/ride.wav"
         colorchange("blue")
     }else if (e.key=="1"){
-        boom.src="sounds/snare.wav"
+        snare.src="sounds/snare.wav"
         colorchange("indigo")
     }else if (e.key=="2"){
-        boom.src="sounds/tink.wav"
+        tink.src="sounds/tink.wav"
         colorchange("violet")
     }else if (e.key=="3"){
-        boom.src="sounds/tom.wav"
+        tom.src="sounds/tom.wav"
         colorchange("rgb(216, 112, 147)")
     }
     h1.style.fontSize="45px"
